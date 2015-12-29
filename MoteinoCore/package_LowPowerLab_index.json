@@ -19,8 +19,8 @@
           },
           "url": "https://lowpowerlab.github.io/MoteinoCore/Moteino1.0.zip",
           "archiveFileName": "Moteino1.0.zip",
-          "checksum": "SHA-256:e746fc9c973234306c1a23a7a34eff994915de05da924ad28268ccd5d2bf3e0c",
-          "size": "5782",
+          "checksum": "SHA-256:bd7f482b7685110da67e3e13dd7fbc8d6c51afdc862e457e16a0e040135f5d18",
+          "size": "6101",
           "boards": [
             {"name": "Moteino"},
             {"name": "MoteinoMEGA"}
