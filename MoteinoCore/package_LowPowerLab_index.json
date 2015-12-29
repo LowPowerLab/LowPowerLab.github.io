@@ -1,0 +1,45 @@
+{
+  "packages": [
+    {
+      "name": "Moteino",
+      "maintainer": "LowPowerLab",
+      "websiteURL": "https://LowPowerLab.com/Moteino",
+      "email": "info@lowpowerlab.com",
+      "help": {
+        "online": "https://lowpowerlab.com/forum"
+      },
+      "platforms": [
+        {
+          "name": "Moteino",
+          "architecture": "avr",
+          "version": "1.0.0",
+          "category": "Contributed",
+          "help": {
+            "online": ""
+          },
+          "url": "https://lowpowerlab.github.io/Moteino1.0.zip",
+          "archiveFileName": "Moteino1.0.zip",
+          "checksum": "SHA-256:bd7f482b7685110da67e3e13dd7fbc8d6c51afdc862e457e16a0e040135f5d18",
+          "size": "6101",
+          "boards": [
+            {"name": "Moteino"},
+            {"name": "MoteinoMEGA"},
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "arduino",
+              "name": "avr-gcc",
+              "version": "4.8.1-arduino5"
+            },
+            {
+              "packager": "arduino",
+              "name": "avrdude",
+              "version": "6.0.1-arduino5"
+            }
+          ]
+        }
+      ],
+      "tools": []
+    }
+  ]
+}
