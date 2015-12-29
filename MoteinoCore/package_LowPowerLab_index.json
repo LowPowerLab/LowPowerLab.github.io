@@ -19,13 +19,8 @@
           },
           "url": "https://lowpowerlab.github.io/MoteinoCore/Moteino1.0.zip",
           "archiveFileName": "Moteino1.0.zip",
-<<<<<<< HEAD
           "checksum": "SHA-256:0b75d68c1b8b92dd249aeea58908cf1e25ba7c7076d40faa985225f2f98f7208",
           "size": "41617",
-=======
-          "checksum": "SHA-256:bd7f482b7685110da67e3e13dd7fbc8d6c51afdc862e457e16a0e040135f5d18",
-          "size": "6101",
->>>>>>> parent of 1c3df24... Update core definition
           "boards": [
             {"name": "Moteino"},
             {"name": "MoteinoMEGA"}
