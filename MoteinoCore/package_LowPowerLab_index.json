@@ -23,7 +23,7 @@
           "size": "6101",
           "boards": [
             {"name": "Moteino"},
-            {"name": "MoteinoMEGA"},
+            {"name": "MoteinoMEGA"}
           ],
           "toolsDependencies": [
             {
