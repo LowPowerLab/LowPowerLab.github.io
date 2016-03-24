@@ -37,6 +37,36 @@
               "version": "6.0.1-arduino5"
             }
           ]
+        },
+		{
+          "name": "Moteino & MightyHat",
+          "architecture": "avr",
+          "version": "1.1.0",
+          "category": "Contributed",
+          "help": {
+            "online": ""
+          },
+          "url": "https://lowpowerlab.github.io/MoteinoCore/Moteino1.1.zip",
+          "archiveFileName": "Moteino1.1.zip",
+          "checksum": "SHA-256:565d56ac6977057f436a0064e7cad12cec9a3895fcd04b01e0a1e676b3d429ad",
+          "size": "41716",
+          "boards": [
+            {"name": "Moteino"},
+            {"name": "MoteinoMEGA"},
+			{"name": "MightyHat"}
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "arduino",
+              "name": "avr-gcc",
+              "version": "4.8.1-arduino5"
+            },
+            {
+              "packager": "arduino",
+              "name": "avrdude",
+              "version": "6.0.1-arduino5"
+            }
+          ]
         }
       ],
       "tools": []
