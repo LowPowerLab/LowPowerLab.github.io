@@ -108,8 +108,8 @@
           },
           "url": "https://lowpowerlab.github.io/MoteinoCore/Moteino1.3.zip",
           "archiveFileName": "Moteino1.3.zip",
-          "checksum": "SHA-256:343c99b13000640f829dad20c3b68e374b3e6d0d344350a286ff902b8d22e8f6",
-          "size": "43483",
+          "checksum": "SHA-256:0297d7670a80b195bedfa246d05ad5e72d03e0cdf89f68ad305fcff9fa4d4755",
+          "size": "43492",
           "boards": [
             {"name": "Moteino"},
             {"name": "Moteino (8 Mhz)"},
