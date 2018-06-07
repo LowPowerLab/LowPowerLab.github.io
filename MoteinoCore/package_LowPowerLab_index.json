@@ -178,6 +178,27 @@
               "version": "1.7.0"
             }
           ]
+        },
+        {
+          "name": "Moteino SAMD Boards",
+          "architecture": "samd",
+          "version": "1.1.0",
+          "category": "Contributed",
+          "url": "https://lowpowerlab.github.io/MoteinoCore/MoteinoSAMD1.1.zip",
+          "archiveFileName": "MoteinoSAMD1.1.zip",
+          "checksum": "SHA-256:86eb8028d894fe2398571c0031172bedcf7bf53327b56d6c40b820e3267eb72c",
+          "size": "1152143",
+          "help": { "online": "https://lowpowerlab.com/forum" },
+          "boards": [
+            {"name": "Moteino M0"}
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "arduino",
+              "name": "bossac",
+              "version": "1.7.0"
+            }
+          ]
         }
       ],
       "tools": [
