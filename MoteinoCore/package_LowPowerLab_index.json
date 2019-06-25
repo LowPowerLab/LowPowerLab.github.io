@@ -250,6 +250,53 @@
               "version": "1.7.0"
             }
           ]
+        },
+        {
+          "name": "LowPowerLab SAMD Boards (requires Arduino SAMD Boards 1.8.1)",
+          "architecture": "samd",
+          "version": "1.3.0",
+          "category": "Contributed",
+          "help": { "online": "https://lowpowerlab.com/forum" },
+          "url": "https://lowpowerlab.github.io/MoteinoCore/MoteinoSAMD1.3.zip",
+          "archiveFileName": "MoteinoSAMD1.3.zip",
+          "checksum": "SHA-256:03F65B4765F2CDB0357DE90DF7F657031AF3493213CD47EC28CA561F7370D538",
+          "size": "734949",
+          "boards": [
+            {"name": "Moteino M0"},
+            {"name": "CurrentRanger"}
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "arduino",
+              "name": "arm-none-eabi-gcc",
+              "version": "7-2017q4"
+            },
+            {
+              "packager": "arduino",
+              "name": "bossac",
+              "version": "1.7.0-arduino3"
+            },
+            {
+              "packager": "arduino",
+              "name": "openocd",
+              "version": "0.10.0-arduino7"
+            },
+            {
+              "packager": "arduino",
+              "name": "CMSIS",
+              "version": "4.5.0"
+            },
+            {
+              "packager": "arduino",
+              "name": "CMSIS-Atmel",
+              "version": "1.2.0"
+            },
+            {
+              "packager": "arduino",
+              "name": "arduinoOTA",
+              "version": "1.2.1"
+            }
+          ]
         }
       ],
       "tools": [
