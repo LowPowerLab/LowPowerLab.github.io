@@ -217,6 +217,35 @@
           ]
         },
         {
+          "name": "Moteino AVR Boards",
+          "architecture": "avr",
+          "version": "1.6.1",
+          "category": "Contributed",
+          "help": { "online": "https://lowpowerlab.com/forum" },
+          "url": "https://lowpowerlab.github.io/MoteinoCore/Moteino1.6.zip",
+          "archiveFileName": "Moteino1.6.1.zip",
+          "checksum": "SHA-256:E471928E519D4FA6D754BDB4B75B4F4D502BB61948D34EAB2056C4ACB5167110",
+          "size": "50414",
+          "boards": [
+            {"name": "Moteino / Moteino-USB"},
+            {"name": "MoteinoMEGA / MoteinoMEGA-USB"},
+            {"name": "MightyHat"},
+            {"name": "Moteino-8Mhz"}
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "arduino",
+              "name": "avr-gcc",
+              "version": "4.8.1-arduino5"
+            },
+            {
+              "packager": "arduino",
+              "name": "avrdude",
+              "version": "6.0.1-arduino5"
+            }
+          ]
+        },
+        {
           "name": "Moteino SAMD Boards",
           "architecture": "samd",
           "version": "1.0.0",
@@ -351,6 +380,58 @@
               "packager": "arduino",
               "name": "bossac",
               "version": "1.7.0-arduino3"
+            },
+            {
+              "packager": "arduino",
+              "name": "openocd",
+              "version": "0.10.0-arduino7"
+            },
+            {
+              "packager": "arduino",
+              "name": "CMSIS",
+              "version": "4.5.0"
+            },
+            {
+              "packager": "arduino",
+              "name": "CMSIS-Atmel",
+              "version": "1.2.0"
+            },
+            {
+              "packager": "arduino",
+              "name": "arduinoOTA",
+              "version": "1.2.1"
+            }
+          ]
+        },
+        {
+          "name": "LowPowerLab SAMD Boards (requires Arduino SAMD Boards 1.8.4)",
+          "architecture": "samd",
+          "version": "1.5.0",
+          "category": "LowPowerLab",
+          "help": { "online": "https://lowpowerlab.com/forum" },
+          "url": "https://lowpowerlab.github.io/MoteinoCore/MoteinoSAMD1.5.zip",
+          "archiveFileName": "MoteinoSAMD1.5.zip",
+          "checksum": "SHA-256:C53FDB817DCC8E1ADE6FAEFF4129916EAB61086D00127F020CC7EA63CF91F22A",
+          "size": "1694449",
+          "boards": [
+            {"name": "Moteino M0"},
+            {"name": "CurrentRanger"}
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "arduino",
+              "name": "arm-none-eabi-gcc",
+              "version": "4.8.3-2014q1"
+            },
+            {
+              "packager": "arduino",
+              "name": "bossac",
+              "version": "1.7.0-arduino3"
+            },
+            {
+              "packager": "arduino",
+              "name": "bossac",
+              "version": "1.8.0-48-gb176eee"
             },
             {
               "packager": "arduino",
