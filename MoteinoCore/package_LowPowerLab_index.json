@@ -454,6 +454,59 @@
               "version": "1.2.1"
             }
           ]
+        },
+        {
+          "name": "LowPowerLab SAMD Boards (requires Arduino SAMD Boards 1.8.4)",
+          "architecture": "samd",
+          "version": "1.6.0",
+          "category": "LowPowerLab",
+          "help": { "online": "https://lowpowerlab.com/forum" },
+          "url": "https://lowpowerlab.github.io/MoteinoCore/MoteinoSAMD1.6.zip",
+          "archiveFileName": "MoteinoSAMD1.6.zip",
+          "checksum": "SHA-256:D9B3D03BB5E0F7CE36A5726F3EC1D062F7D09B7C2C3F64059FF9BA0CA99658D8",
+          "size": "1707213",
+          "boards": [
+            {"name": "Moteino M0"},
+            {"name": "RFGateway M4"},
+            {"name": "CurrentRanger"}
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "arduino",
+              "name": "arm-none-eabi-gcc",
+              "version": "4.8.3-2014q1"
+            },
+            {
+              "packager": "arduino",
+              "name": "bossac",
+              "version": "1.7.0-arduino3"
+            },
+            {
+              "packager": "arduino",
+              "name": "bossac",
+              "version": "1.8.0-48-gb176eee"
+            },
+            {
+              "packager": "arduino",
+              "name": "openocd",
+              "version": "0.10.0-arduino7"
+            },
+            {
+              "packager": "arduino",
+              "name": "CMSIS",
+              "version": "4.5.0"
+            },
+            {
+              "packager": "arduino",
+              "name": "CMSIS-Atmel",
+              "version": "1.2.0"
+            },
+            {
+              "packager": "arduino",
+              "name": "arduinoOTA",
+              "version": "1.2.1"
+            }
+          ]
         }
       ],
       "tools": [
