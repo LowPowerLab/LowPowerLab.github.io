@@ -515,7 +515,7 @@
           "category": "LowPowerLab",
           "help": { "online": "https://lowpowerlab.com/forum" },
           "url": "https://lowpowerlab.github.io/MoteinoCore/MoteinoSAMD1.6.1.zip",
-          "archiveFileName": "MoteinoSAMD1.6.zip",
+          "archiveFileName": "MoteinoSAMD1.6.1.zip",
           "checksum": "SHA-256:D8B6AA246BC612CC90AE6C0B6B781A1CC735CCFB693AB753F032D1654CFB2410",
           "size": "1793717",
           "boards": [
