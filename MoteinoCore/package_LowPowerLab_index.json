@@ -509,7 +509,7 @@
           ]
         },
         {
-          "name": "LowPowerLab SAMD Boards (requires Arduino SAMD Boards 1.8.11)",
+          "name": "LowPowerLab SAMD Boards (skip!)",
           "architecture": "samd",
           "version": "1.6.1",
           "category": "LowPowerLab",
@@ -518,6 +518,59 @@
           "archiveFileName": "MoteinoSAMD1.6.1.zip",
           "checksum": "SHA-256:D8B6AA246BC612CC90AE6C0B6B781A1CC735CCFB693AB753F032D1654CFB2410",
           "size": "1793717",
+          "boards": [
+            {"name": "Moteino M0"},
+            {"name": "RFGateway M4"},
+            {"name": "CurrentRanger"}
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "arduino",
+              "name": "arm-none-eabi-gcc",
+              "version": "7-2017q4"
+            },
+            {
+              "packager": "arduino",
+              "name": "bossac",
+              "version": "1.7.0-arduino3"
+            },
+            {
+              "packager": "arduino",
+              "name": "bossac",
+              "version": "1.8.0-48-gb176eee"
+            },
+            {
+              "packager": "arduino",
+              "name": "openocd",
+              "version": "0.10.0-arduino7"
+            },
+            {
+              "packager": "arduino",
+              "name": "CMSIS",
+              "version": "4.5.0"
+            },
+            {
+              "packager": "arduino",
+              "name": "CMSIS-Atmel",
+              "version": "1.2.0"
+            },
+            {
+              "packager": "arduino",
+              "name": "arduinoOTA",
+              "version": "1.2.1"
+            }
+          ]
+        },
+        {
+          "name": "LowPowerLab SAMD Boards (requires Arduino SAMD Boards 1.8.11)",
+          "architecture": "samd",
+          "version": "1.6.2",
+          "category": "LowPowerLab",
+          "help": { "online": "https://lowpowerlab.com/forum" },
+          "url": "https://lowpowerlab.github.io/MoteinoCore/MoteinoSAMD1.6.2.zip",
+          "archiveFileName": "MoteinoSAMD1.6.2.zip",
+          "checksum": "SHA-256:ED59147FF62D4251D0C7F12C3882900D7B8D16209D2E9FD19DC64CE99D832F66",
+          "size": "1793709",
           "boards": [
             {"name": "Moteino M0"},
             {"name": "RFGateway M4"},
