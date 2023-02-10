@@ -246,6 +246,35 @@
           ]
         },
         {
+          "name": "Moteino AVR Boards",
+          "architecture": "avr",
+          "version": "1.6.2",
+          "category": "Contributed",
+          "help": { "online": "https://lowpowerlab.com/forum" },
+          "url": "https://lowpowerlab.github.io/MoteinoCore/Moteino1.6.2.zip",
+          "archiveFileName": "Moteino1.6.2.zip",
+          "checksum": "SHA-256:E471928E519D4FA6D754BDB4B75B4F4D502BB61948D34EAB2056C4ACB5167110",
+          "size": "50414",
+          "boards": [
+            {"name": "Moteino / Moteino-USB"},
+            {"name": "MoteinoMEGA / MoteinoMEGA-USB"},
+            {"name": "MightyHat"},
+            {"name": "Moteino-8Mhz"}
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "arduino",
+              "name": "avr-gcc",
+              "version": "7.3.0-atmel3.6.1-arduino7"
+            },
+            {
+              "packager": "arduino",
+              "name": "avrdude",
+              "version": "6.3.0-arduino17"
+            }
+          ]
+        },
+        {
           "name": "Moteino SAMD Boards",
           "architecture": "samd",
           "version": "1.0.0",
